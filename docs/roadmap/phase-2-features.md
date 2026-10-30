@@ -32,7 +32,7 @@ Each milestone lists the surface area to implement, the adapter requirements (ne
 - Tapping a file opens it in the `FileViewerHost`
 - The provider's `truncated` flag surfaces a "Show more" affordance
 
-**Extracted from:** [`apps/landing/src/pages/ide/FileTreeSidebar.tsx`](https://github.com/edgar-durand/codeagent-mobile/blob/main/apps/landing/src/pages/ide/FileTreeSidebar.tsx) — already shipping in the dashboard, just needs to move into the library + add a native equivalent.
+**Extracted from:** [`apps/landing/src/pages/ide/FileTreeSidebar.tsx`](https://github.com/CodeAgentMobile/codeagent-mobile/blob/main/apps/landing/src/pages/ide/FileTreeSidebar.tsx) — already shipping in the dashboard, just needs to move into the library + add a native equivalent.
 
 ---
 
@@ -57,7 +57,7 @@ Each milestone lists the surface area to implement, the adapter requirements (ne
 - Open a file with conflicts; conflict-resolution toolbar surfaces (accept-current / accept-incoming / accept-both)
 - Commit emoji + Conventional Commits prefix presets toggleable in settings
 
-**Extracted from:** [`apps/landing/src/pages/ide/ChangesTab.tsx`](https://github.com/edgar-durand/codeagent-mobile/blob/main/apps/landing/src/pages/ide/ChangesTab.tsx) + [`CommitDialog.tsx`](https://github.com/edgar-durand/codeagent-mobile/blob/main/apps/landing/src/pages/ide/CommitDialog.tsx) — same pattern as M1, port + add native equivalent.
+**Extracted from:** [`apps/landing/src/pages/ide/ChangesTab.tsx`](https://github.com/CodeAgentMobile/codeagent-mobile/blob/main/apps/landing/src/pages/ide/ChangesTab.tsx) + [`CommitDialog.tsx`](https://github.com/CodeAgentMobile/codeagent-mobile/blob/main/apps/landing/src/pages/ide/CommitDialog.tsx) — same pattern as M1, port + add native equivalent.
 
 ---
 

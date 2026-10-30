@@ -3,7 +3,7 @@
 > A VS Code–style IDE surface for React (DOM). Activity bar, file explorer, source control, search, settings, tabs, breadcrumbs, inline editor, diff viewer, and terminal. Drops into any React web app — bring your own backend via small adapter interfaces.
 
 [![npm](https://img.shields.io/npm/v/%40codeam%2Fide-web?label=%40codeam%2Fide-web)](https://www.npmjs.com/package/@codeam/ide-web)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/edgar-durand/codeagent-mobile-ide/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/CodeAgentMobile/codeagent-mobile-ide/blob/main/LICENSE)
 
 ## Quick install
 

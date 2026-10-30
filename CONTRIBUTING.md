@@ -5,7 +5,7 @@ Thanks for considering a contribution. This is an MIT-licensed library — code,
 ## Local setup
 
 ```bash
-git clone https://github.com/edgar-durand/codeagent-mobile-ide.git
+git clone https://github.com/CodeAgentMobile/codeagent-mobile-ide.git
 cd codeagent-mobile-ide
 npm install        # installs all workspaces
 ```
@@ -52,7 +52,7 @@ Breaking changes: append `!` after type/scope, or add a `BREAKING CHANGE:` foote
 
 ## Release flow
 
-Tag-triggered, identical pattern to [codeagent-mobile-clients](https://github.com/edgar-durand/codeagent-mobile-clients):
+Tag-triggered, identical pattern to [codeagent-mobile-clients](https://github.com/CodeAgentMobile/codeagent-mobile-clients):
 
 ```bash
 git tag v0.2.0

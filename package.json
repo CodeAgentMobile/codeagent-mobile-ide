@@ -5,7 +5,7 @@
   "description": "@codeam/ide — a VS Code-style IDE component library for mobile and web, designed to be embedded into any app via React Native or React DOM. Includes a file viewer (Monaco-backed), file explorer, source control, search, and an extension runtime spec compatible with VS Code's marketplace.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/edgar-durand/codeagent-mobile-ide.git"
+    "url": "https://github.com/CodeAgentMobile/codeagent-mobile-ide.git"
   },
   "license": "MIT",
   "author": "Edgar Durand",
