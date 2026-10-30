@@ -3,7 +3,7 @@
 > VS Code–style IDE surface for **React Native** — activity bar, file explorer, source control, search, settings, tabs, breadcrumbs, inline editor, diff viewer, and terminal. Same prop shape as [`@codeam/ide-web`](https://www.npmjs.com/package/@codeam/ide-web). Bring your own backend.
 
 [![npm](https://img.shields.io/npm/v/%40codeam%2Fide-native?label=%40codeam%2Fide-native)](https://www.npmjs.com/package/@codeam/ide-native)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/edgar-durand/codeagent-mobile-ide/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/CodeAgentMobile/codeagent-mobile-ide/blob/main/LICENSE)
 
 ## Quick install
 

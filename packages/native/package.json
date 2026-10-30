@@ -16,7 +16,7 @@
   "author": "Edgar Durand",
   "repository": {
     "type": "git",
-    "url": "https://github.com/edgar-durand/codeagent-mobile-ide.git",
+    "url": "https://github.com/CodeAgentMobile/codeagent-mobile-ide.git",
     "directory": "packages/native"
   },
   "type": "module",

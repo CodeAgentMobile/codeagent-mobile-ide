@@ -5,7 +5,7 @@
 [![npm version (core)](https://img.shields.io/npm/v/%40codeam%2Fide-core?label=%40codeam%2Fide-core)](https://www.npmjs.com/package/@codeam/ide-core)
 [![npm version (web)](https://img.shields.io/npm/v/%40codeam%2Fide-web?label=%40codeam%2Fide-web)](https://www.npmjs.com/package/@codeam/ide-web)
 [![npm version (native)](https://img.shields.io/npm/v/%40codeam%2Fide-native?label=%40codeam%2Fide-native)](https://www.npmjs.com/package/@codeam/ide-native)
-[![CI](https://github.com/edgar-durand/codeagent-mobile-ide/actions/workflows/ci.yml/badge.svg)](https://github.com/edgar-durand/codeagent-mobile-ide/actions/workflows/ci.yml)
+[![CI](https://github.com/CodeAgentMobile/codeagent-mobile-ide/actions/workflows/ci.yml/badge.svg)](https://github.com/CodeAgentMobile/codeagent-mobile-ide/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ---
@@ -46,7 +46,7 @@ The repo is an `npm workspaces` monorepo. Three packages publish to npm under th
 | [`@codeam/ide-native`](./packages/native) | React Native UI: same surfaces, Monaco hosted in a `react-native-webview`.                                                           | TBD — Monaco fetched from CDN at runtime |
 
 All three ship on **one fixed version line**, identical to the
-[codeagent-mobile-clients](https://github.com/edgar-durand/codeagent-mobile-clients)
+[codeagent-mobile-clients](https://github.com/CodeAgentMobile/codeagent-mobile-clients)
 release pipeline: a single `git tag vX.Y.Z` push triggers parallel publishes
 of all three packages to npm, with release notes generated from the
 Conventional Commits between tags.
@@ -208,7 +208,7 @@ The host's `useEffect` keys off `fetcher` identity. Allocating a fresh adapter o
 
 **Fix:** cache by id in a module-level `Map`, or memoise with `useMemo(() => createFetcher(sessionId), [sessionId])`.
 
-The internal pattern we use in CodeAgent Mobile lives in [`createSessionFileFetcher`](https://github.com/edgar-durand/codeagent-mobile/blob/main/apps/mobile/src/components/fileViewer/FileViewerContext.tsx) — feel free to copy.
+The internal pattern we use in CodeAgent Mobile lives in [`createSessionFileFetcher`](https://github.com/CodeAgentMobile/codeagent-mobile/blob/main/apps/mobile/src/components/fileViewer/FileViewerContext.tsx) — feel free to copy.
 
 ### Adapter `read` / `write` must be idempotent-safe
 
@@ -236,7 +236,7 @@ See [`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md) for the layered model and d
 
 ```bash
 # Clone + install once at the repo root (installs all workspaces).
-git clone https://github.com/edgar-durand/codeagent-mobile-ide.git
+git clone https://github.com/CodeAgentMobile/codeagent-mobile-ide.git
 cd codeagent-mobile-ide
 npm install
 
