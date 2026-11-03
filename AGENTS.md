@@ -4,6 +4,10 @@ Repository-wide guidance for coding agents. Read this file before changing code.
 detailed design context lives in `docs/ARCHITECTURE.md`; package-specific API notes live in
 each package's `README.md`.
 
+## Atención al detalle y buen gusto
+
+- **Atención al detalle y buen gusto:** todo lo que ve un usuario (y todo lo que genera el producto) se diseña, nunca se rellena. Reutiliza el componente que ya existe antes de crear uno "parecido", y mira el resultado en móvil y escritorio con datos reales antes de entregarlo. Sección completa en `CLAUDE.md` → "Atención al detalle y buen gusto".
+
 ## Project overview
 
 This is an npm-workspaces monorepo for `@codeam/ide`, an embeddable VS Code-style IDE component
